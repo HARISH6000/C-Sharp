@@ -1,0 +1,15 @@
+C:\Presidio\PreInternshipTraining\c#\task-3\bin\Debug\net9.0\task-3.exe
+C:\Presidio\PreInternshipTraining\c#\task-3\bin\Debug\net9.0\task-3.deps.json
+C:\Presidio\PreInternshipTraining\c#\task-3\bin\Debug\net9.0\task-3.runtimeconfig.json
+C:\Presidio\PreInternshipTraining\c#\task-3\bin\Debug\net9.0\task-3.dll
+C:\Presidio\PreInternshipTraining\c#\task-3\bin\Debug\net9.0\task-3.pdb
+C:\Presidio\PreInternshipTraining\c#\task-3\obj\Debug\net9.0\task-3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Presidio\PreInternshipTraining\c#\task-3\obj\Debug\net9.0\task-3.AssemblyInfoInputs.cache
+C:\Presidio\PreInternshipTraining\c#\task-3\obj\Debug\net9.0\task-3.AssemblyInfo.cs
+C:\Presidio\PreInternshipTraining\c#\task-3\obj\Debug\net9.0\task-3.csproj.CoreCompileInputs.cache
+C:\Presidio\PreInternshipTraining\c#\task-3\obj\Debug\net9.0\task-3.sourcelink.json
+C:\Presidio\PreInternshipTraining\c#\task-3\obj\Debug\net9.0\task-3.dll
+C:\Presidio\PreInternshipTraining\c#\task-3\obj\Debug\net9.0\refint\task-3.dll
+C:\Presidio\PreInternshipTraining\c#\task-3\obj\Debug\net9.0\task-3.pdb
+C:\Presidio\PreInternshipTraining\c#\task-3\obj\Debug\net9.0\task-3.genruntimeconfig.cache
+C:\Presidio\PreInternshipTraining\c#\task-3\obj\Debug\net9.0\ref\task-3.dll
