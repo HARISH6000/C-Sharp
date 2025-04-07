@@ -59,5 +59,5 @@ namespace Task2
 }
 ```
 
-## Output
+## Console Output
 ![Demo](./output/1.png)
