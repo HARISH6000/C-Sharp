@@ -12,3 +12,4 @@ C:\Presidio\PreInternshipTraining\c#\task-1\obj\Debug\net9.0\refint\task-1.dll
 C:\Presidio\PreInternshipTraining\c#\task-1\obj\Debug\net9.0\task-1.pdb
 C:\Presidio\PreInternshipTraining\c#\task-1\obj\Debug\net9.0\task-1.genruntimeconfig.cache
 C:\Presidio\PreInternshipTraining\c#\task-1\obj\Debug\net9.0\ref\task-1.dll
+C:\Presidio\PreInternshipTraining\c#\task-1\obj\Debug\net9.0\task-1.sourcelink.json
