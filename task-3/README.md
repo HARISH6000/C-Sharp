@@ -1,4 +1,4 @@
-# Basic Collections and String ManipulationObjective:Requirements
+# Basic Collections and String Manipulation
 
 ## Requirements
 - Write a program to manage a list of strings (e.g., names or tasks).
