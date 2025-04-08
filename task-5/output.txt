@@ -1,0 +1,3 @@
+File Analysis Results:
+Total Lines: 25
+Total Words: 320
