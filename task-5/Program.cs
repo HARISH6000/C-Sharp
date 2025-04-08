@@ -35,14 +35,6 @@ namespace Task5
             {
                 Console.WriteLine($"Error: {ex.Message}");
             }
-            catch (IOException ex)
-            {
-                Console.WriteLine($"I/O Error: {ex.Message}");
-            }
-            catch (UnauthorizedAccessException ex)
-            {
-                Console.WriteLine($"Access Denied: {ex.Message}");
-            }
             catch (Exception ex)
             {
                 Console.WriteLine($"Unexpected error: {ex.Message}");
