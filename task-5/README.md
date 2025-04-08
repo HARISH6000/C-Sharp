@@ -75,6 +75,8 @@ namespace Task5
 ```
 
 ## Console Output
+- When file doesnt exist
 ![Demo](./output/1.png)
+- when file exists
 ![Demo](./output/2.png)
 ![Demo](./output/3.png)
