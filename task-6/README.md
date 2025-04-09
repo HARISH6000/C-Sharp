@@ -1,0 +1,89 @@
+# Delegates, Events, and Basic Event Handling
+
+## Requirements
+- Build a console-based event-driven application (e.g., a counter that triggers an event at a threshold).
+- Define a delegate and an event that fires when a counter reaches a specific value.
+- Create multiple event handler methods that perform actions when the event is raised.
+- In your main loop, increment the counter and raise the event when appropriate.
+- Demonstrate how events can decouple the producer and consumer logic.
+
+## Code
+
+```c#
+using System;
+
+namespace Task6
+{
+    public delegate void ThresholdReachedEventHandler(int value);
+    public class Counter
+    {
+        private int _count; 
+        public int Threshold { get; set; } 
+
+        public event ThresholdReachedEventHandler ThresholdReached;
+
+        public void Increment()
+        {
+            _count++;
+            Console.WriteLine($"Counter: {_count}");
+
+            if (_count >= Threshold)
+            {
+                ThresholdReached?.Invoke(_count);
+            }
+        }
+    }
+
+ 
+    public class EventHandlers
+    {
+        public void Alert(int value)
+        {
+            Console.WriteLine($"Alert! Threshold of {value} reached.");
+        }
+
+        public void Log(int value)
+        {
+            Console.WriteLine($"Logging: Threshold {value} reached.");
+        }
+    }
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Counter counter = new Counter { Threshold = 5 };
+
+            EventHandlers handlers = new EventHandlers();
+
+            counter.ThresholdReached += handlers.Alert;
+            counter.ThresholdReached += handlers.Log;
+
+            int c=0;
+            while(true)
+            {
+                Console.Write("press Enter:");
+                Console.ReadLine();
+                counter.Increment();
+                c+=1;
+                if(c==5){
+                    Console.WriteLine("\nUnsubscribing the Log handler...\n");
+                    counter.ThresholdReached -= handlers.Log;
+                }
+                
+            }
+
+            Console.WriteLine("\nUnsubscribing the Log handler...\n");
+            counter.ThresholdReached -= handlers.Log;
+
+            for (int i = 0; i < 5; i++)
+            {
+                counter.Increment();
+            }
+        }
+    }
+}
+```
+
+## Console Output
+![Demo](./output/1.png)
